@@ -5,8 +5,7 @@ using System.Text;
 
 namespace DataAccess.Abstract
 {
-    public interface ICarDal:IEntityRepository<Car> // IEntityRepository'i Car için yapılandırdım.Tipini Car olarak belirlemiş oldum.
+    public interface IBrandDal:IEntityRepository<Brand>
     {
-
     }
 }
